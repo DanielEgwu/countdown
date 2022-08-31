@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Countdown</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>My Birthday Countdown</h1>
+        <div class="countdown">
+            <div class="row-1" >
+                <div class="time" id="timedy">
+                    <h2 id="day">00</h2>
+                    <small>DAYS</small>
+                </div>
+
+                <div class="time" id="timehr">
+                    <h2 id="hour">00</h2>
+                    <small>HOURS</small>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="time" id="timemin">
+                    <h2 id="min" style="text-align: center;">00</h2>
+                    <small>MINUTES</small>
+                </div>
+
+
+                <div class="time" id="timesec">
+                    <h2 id="sec" style="text-align: center;position:relative;">00</h2>
+                    <small>SECONDS</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="message">
+                <span class="error"></span>
+                <span class="good"></span>
+            </div>
+            <div class="mail">
+                <input type="email" id="email" placeholder="Enter email here..."><button id="notify">Notify me</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="countdown.js"></script>
+</body>
+
+</html>
